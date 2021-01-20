@@ -529,7 +529,7 @@ int adminMenu1_2()
 						{
 							cout << car.count[j];
 						}
-						cout << endl;   // ekrana yeni bos setir qoyurş
+						cout << endl;   // ekrana yeni bos setir qoyurÃ¾
 						car.index = i;  // remembers the index of the first element.
 						fclose(fptr);   // stops reading from file.
 						string select2;
@@ -2899,7 +2899,7 @@ int userMenu3()
 	if (select1 == "0")
 	{
 		system("cls");			// After the user enters, the screen deletes the cixans in advance.
-		adminMenuAll();
+		userMenuAll();
 	}
 	system("cls");				// After the user enters, the screen deletes the cixans in advance.
 	return 0;					// if the type of the function is int, then the end of the function is' erturn 0; This means that if it is an int type, it will return the information
